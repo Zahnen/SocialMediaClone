@@ -1,6 +1,6 @@
 import React from "react";
 import Header from './Header';
-import TicketList from './TicketList';
+import PostList from './PostList';
 
 function App(){
   // const name = "Thato";
@@ -8,7 +8,7 @@ function App(){
   return (
     <React.Fragment>
       <Header />
-      <TicketList />
+      <PostList />
     </React.Fragment>
   );
 }
